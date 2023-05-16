@@ -87,6 +87,190 @@
 
 
 
+
+
+		<block name="paintingNova1">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova1Prefab.prefab" />
+		</block>
+		<block name="paintingNova2">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova2Prefab.prefab" />
+		</block>
+		<block name="paintingNova3">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova3Prefab.prefab" />
+		</block>
+		<block name="paintingNova4">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova4Prefab.prefab" />
+		</block>
+		<block name="paintingNova5">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova5Prefab.prefab" />
+		</block>
+		<block name="paintingNova6">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova6Prefab.prefab" />
+		</block>
+		<block name="paintingNova7">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova7Prefab.prefab" />
+		</block>
+		<block name="paintingNova8">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova8Prefab.prefab" />
+		</block>
+		<block name="paintingNova9">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova9Prefab.prefab" />
+		</block>
+		<block name="paintingNova10">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova10Prefab.prefab" />
+		</block>
+		<block name="paintingNova11">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova11Prefab.prefab" />
+		</block>
+		<block name="paintingNova12">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova12Prefab.prefab" />
+		</block>
+		<block name="paintingNova13">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova13Prefab.prefab" />
+		</block>
+		<block name="paintingNova14">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova14Prefab.prefab" />
+		</block>
+
+
+
+
+
+		<block name="paintingNova15">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova15Prefab.prefab" />
+		</block>
+		<block name="paintingNova16">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova16Prefab.prefab" />
+		</block>
+		<block name="paintingNova17">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova17Prefab.prefab" />
+		</block>
+		<block name="paintingNova18">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova18Prefab.prefab" />
+		</block>
+		<block name="paintingNova19">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova19Prefab.prefab" />
+		</block>
+		<block name="paintingNova20">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova20Prefab.prefab" />
+		</block>
+		<block name="paintingNova21">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova21Prefab.prefab" />
+		</block>
+		<block name="paintingNova22">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova22Prefab.prefab" />
+		</block>
+		<block name="paintingNova23">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova23Prefab.prefab" />
+		</block>
+		<block name="paintingNova24">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova24Prefab.prefab" />
+		</block>
+		<block name="paintingNova25">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova25Prefab.prefab" />
+		</block>
+		<block name="paintingNova26">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova26Prefab.prefab" />
+		</block>
+		<block name="paintingNova27">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova27Prefab.prefab" />
+		</block>
+		<block name="paintingNova28">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova28Prefab.prefab" />
+		</block>
+		<block name="paintingNova29">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas2.unity3d?painting_Nova29Prefab.prefab" />
+		</block>
+
+
+
 		<block name="paintingVuxCatsAllCatsRandomHelper">
 			<property name="Extends" value="paintingNoah" param1="DescriptionKey"/>
 			<property name="CreativeMode" value="Dev"/>
