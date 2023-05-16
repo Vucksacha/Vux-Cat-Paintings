@@ -1,0 +1,101 @@
+<VuxCats>
+	<append xpath="/blocks">
+		<block name="paintingNovaAstronaut">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaAstronautPrefab.prefab" />
+		</block>
+		<block name="paintingNovaChibi">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaChibiPrefab.prefab" />
+		</block>
+		<block name="paintingNovaChibiSciFi">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaChibiSciFiPrefab.prefab" />
+		</block>
+		<block name="paintingNovaPhoenix">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaPhoenixPrefab.prefab" />
+		</block>
+		<block name="paintingNovaPurpleWisp">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaPurpleWispPrefab.prefab" />
+		</block>
+		<block name="paintingNovaRogue">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaRoguePrefab.prefab" />
+		</block>
+		<block name="paintingNovaRogue2">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaRogue2Prefab.prefab" />
+		</block>
+		<block name="paintingNovaSciFi">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaSciFiPrefab.prefab" />
+		</block>
+		<block name="paintingNovaSpace">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaSpacePrefab.prefab" />
+		</block>
+		<block name="paintingNovaStudying">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaStudyingPrefab.prefab" />
+		</block>
+		<block name="paintingNovaWingedWizard">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaWingedWizardPrefab.prefab" />
+		</block>
+		<block name="paintingNovaWizard">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaWizardPrefab.prefab" />
+		</block>
+		<block name="paintingNovaWizard2">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaWizard2Prefab.prefab" />
+		</block>
+		<block name="paintingNovaZappy">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaZappyPrefab.prefab" />
+		</block>
+
+
+
+		<block name="paintingVuxCatsAllCatsRandomHelper">
+			<property name="Extends" value="paintingNoah" param1="DescriptionKey"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="ItemTypeIcon" value="triangle"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="CustomIcon" value="NovaAstronaut"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="Model" value="#@modfolder:Resources/Novas.unity3d?painting_NovaAstronautPrefab.prefab" />
+			<property name="FilterTags" value="MC_helpers,SC_helperResidential"/>
+		</block>
+	</append>
+</VuxCats>
