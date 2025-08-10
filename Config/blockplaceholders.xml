@@ -143,37 +143,41 @@
 	</append>
 
 
-	<!-- Remove all the Sorcery pictures from normal POIs -->
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters1']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters2']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters3']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetDaemon']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetAzazel']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetAbbie']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetBabou']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetPhoebe']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetSquidge']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcIvanos']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcNotarobot']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcOnorus']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcBridget']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcAcadamius']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcGamingleader']"/>
+	<!-- Remove all the Sorcery pictures from normal POIs -->    
+    <conditional>
+        <if cond="mod_loaded('Sorcery')">
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters1']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters2']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcSupporters3']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetDaemon']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetAzazel']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetAbbie']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetBabou']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetPhoebe']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcPetSquidge']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcIvanos']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcNotarobot']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcOnorus']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcBridget']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcAcadamius']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']/block[@name='paintingSorcGamingleader']"/>
 
 
-	<!-- Remove the Sorcery Safe pictures from normal POIs -->
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters1']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters2']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters3']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetDaemon']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetAzazel']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetAbbie']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetBabou']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetPhoebe']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetSquidge']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcIvanos']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcOnorus']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcBridget']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcAcadamius']"/>
-	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcGamingleader']"/>
+			<!-- Remove the Sorcery Safe pictures from normal POIs -->
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters1']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters2']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcSupporters3']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetDaemon']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetAzazel']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetAbbie']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetBabou']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetPhoebe']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcPetSquidge']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcIvanos']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcOnorus']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcBridget']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcAcadamius']"/>
+			<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']/block[@name='hiddenSafePaintingSorcGamingleader']"/>
+        </if>
+    </conditional>
 </VuxCats>
